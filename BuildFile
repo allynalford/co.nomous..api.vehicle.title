@@ -1,0 +1,5 @@
+# Install/update dependencies.
+go get github.com/gin-gonic/gin
+go get github.com/go-sql-driver/mysql
+
+go build -o bin/application application.go
